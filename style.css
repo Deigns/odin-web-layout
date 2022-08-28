@@ -1,0 +1,137 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.header{
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 10px;
+}
+
+.header, .footer, #rowone {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+}
+
+.header, .content, .footer {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.header-links {
+    display: flex;
+    column-gap: 40px;
+    font-size: 18px;
+    color: E5E7EB;
+    margin-left: 150px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+h4 {
+    font-size: 24px;
+    margin-top: 0px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+#rowone {
+    column-gap: 10px;
+}
+
+#rowtwo {
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+}
+
+#rowthree {
+    text-align: center;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+#rowfour {
+    background-color: white;
+}
+
+#rowone .column {
+    width: 400px;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column.two {
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    height: 200px;
+}
+
+.pics {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    border: 5px solid;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.credit {
+    align-self: flex-end;
+}
+
+.footer {
+    justify-content: center;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: white;
+}
+
+.bottom {
+    align-self: center;
+    flex: 0 1 auto;
+    height: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.callbox {
+    background-color: #3882f6;
+    display: flex;
+}
